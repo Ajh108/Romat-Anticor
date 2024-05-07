@@ -1,0 +1,75 @@
+/* Root colors */
+
+:root {
+  --color-primary: #22577A;
+  --color-secondary: #38A3A5;
+  --color-green: #57CC99;
+  --color-lime: #80ED99;
+  --color-green-light: #C7f9CC;
+  --color-green-lighter: #cbe0cd;
+}
+
+/* Reseting basic proprieties */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul, p, h1, h2, h3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.hi {
+  color: var(--color-primary);
+}
+
+main {
+  background-color: var(--color-green-lighter);
+}
+
+/* General styles */
+
+section .container-box {
+  max-width: 1300px;
+  min-width: 320px;
+  margin: auto;
+  padding: 10px;
+}
+
+section .title {
+  display: inline-block;
+  background-color: var(--color-primary);
+  border-radius: 10% 50% 10% 50%;
+  margin-top: 20px !important;
+  color: var(--color-lime);
+  padding: 10px;
+}
+
+section .title h1 {
+  padding: 0 20px;
+}
+
+section strong {
+  font-size: larger;
+  color: var(--color-primary);
+}
+
+section .text-description {
+  display: inline-block;
+  font-size: large;
+  width: 70%;
+  position: relative;
+  font-family: cursive;
+}

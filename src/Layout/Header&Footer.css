@@ -1,0 +1,92 @@
+/* Styling header */
+
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.Header .nav {
+    background-color: var(--color-primary);
+}
+
+.Header .nav h1 {
+    color: var(--color-lime);
+}
+
+.Header .menu-icon {
+    display: none;
+    cursor: poiner;
+}
+
+.Header .menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.Header .drop-down-menu {
+    display: flex;
+}
+
+.Header .navbar-text {
+    color: var(--color-lime);
+    font-size: large;
+}
+
+.Header img {
+    width: 150px;
+    height: auto;
+    filter: opacity();
+}
+
+/* Styling Footer */
+
+.Footer {
+    background-color: var(--color-primary);
+}
+
+.Footer .info p {
+    color: var(--color-lime);
+    font-size: small;
+}
+
+.Footer .info {
+    padding-bottom: 0;
+}
+
+/* Making the site responsive */
+
+@media (max-width: 768px) {
+    .Header .drop-down-menu {
+        display: none;
+    }
+
+    .Header img {
+        width: 50%;
+    }
+    
+    .Header .menu-icon {
+        display: block;
+    }
+
+    .Header .menu-icon-container {
+        position: relative;
+        padding: 20px;
+    }
+
+    .Header .mobile-menu {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 90px;
+        background-color: var(--color-primary);
+        left: 0;
+        text-align: center;
+        
+    }
+
+    .Header .navbar-text {
+        padding: 12px !important;
+    }
+
+}
