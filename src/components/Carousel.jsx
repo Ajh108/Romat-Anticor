@@ -9,16 +9,16 @@ export default function Carrousel(props){
         return (
             <Carousel infiniteLoop={true}>
                 <div>
-                    <img src={image} />
+                    <img src={image} alt=""/>
                 </div>
                 <div>
-                    <img src={image2} />
+                    <img src={image2} alt=""/>
                 </div>
                 <div>
-                    <img src={image3} />
+                    <img src={image3} alt=""/>
                 </div>
                 <div>
-                    <img src={image4} />
+                    <img src={image4} alt=""/>
                 </div>
             </Carousel>
         );
