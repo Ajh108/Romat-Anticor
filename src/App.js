@@ -1,10 +1,10 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'; 
-import { Home }  from './Pages/Home';
-import { Portofoliu } from './Pages/Portofoliu';
-import { ServiciiParteneri } from './Pages/ServiciiParteneri';
-import { Contact } from './Pages/Contact';
+import { Home }  from './pages/Home';
+import { Portofoliu } from './pages/Portofoliu';
+import { ServiciiParteneri } from './pages/ServiciiParteneri';
+import { Contact } from './pages/Contact';
 
 
 function App() {

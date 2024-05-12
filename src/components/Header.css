@@ -11,7 +11,7 @@
 }
 
 .Header .nav h1 {
-    color: var(--color-lime);
+    color: var(--color-secondary);
 }
 
 .Header .menu-icon {
@@ -29,7 +29,7 @@
 }
 
 .Header .navbar-text {
-    color: var(--color-lime);
+    color: var(--color-secondary);
     font-size: large;
 }
 
@@ -37,21 +37,6 @@
     width: 150px;
     height: auto;
     filter: opacity();
-}
-
-/* Styling Footer */
-
-.Footer {
-    background-color: var(--color-primary);
-}
-
-.Footer .info p {
-    color: var(--color-lime);
-    font-size: small;
-}
-
-.Footer .info {
-    padding-bottom: 0;
 }
 
 /* Making the site responsive */

@@ -1,5 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
-import "../Pages/ServiciiParteneri.css"
+import "../pages/ServiciiParteneri.css"
 
 function AccordionFirstOpen() {
   return (

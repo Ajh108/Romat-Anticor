@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./Header&Footer.css";
-import img from "../Logo/Logo.JPG"
+import "./Header.css";
+import img from "../logo/Logo.JPG"
 
 export default function Header() {
   const [isDisplayed, setIsDisplayed] = useState(false);

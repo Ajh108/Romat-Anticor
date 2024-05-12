@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import useWindowDimension from "../Utility/windowHook";
-import "../Pages/Home.css";
+import "../pages/Home.css";
 
 function GridCards() {
   const { width } = useWindowDimension();
@@ -17,7 +17,7 @@ function GridCards() {
     <Container className="d-flex flex-column align-items-center">
       <Row className={GridContainer}>
         <Col className="my-4 ">
-          <Card className="Card" border="success" style={{ height: "100%" }}>
+          <Card className="Card" border="dark" style={{ height: "100%" }}>
             <Card.Header className="card-title">
               1. Experiență și Competență
             </Card.Header>
@@ -31,7 +31,7 @@ function GridCards() {
           </Card>
         </Col>
         <Col className="my-4">
-          <Card className="Card" border="success" style={{ height: "100%" }}>
+          <Card className="Card" border="dark" style={{ height: "100%" }}>
             <Card.Header className="card-title">
               2. Soluții Avansate de Protecție Anticorozivă
             </Card.Header>
@@ -48,7 +48,7 @@ function GridCards() {
       </Row>
       <Row className={GridContainer}>
         <Col className="mb-4">
-          <Card className="Card" border="success" style={{ height: "100%" }}>
+          <Card className="Card" border="dark" style={{ height: "100%" }}>
             <Card.Header className="card-title">
               3. Servicii de Mentenanță pentru Echipamente Hidroenergetice
             </Card.Header>
@@ -63,7 +63,7 @@ function GridCards() {
           </Card>
         </Col>
         <Col className="mb-4">
-          <Card className="Card" border="success" style={{ height: "100%" }}>
+          <Card className="Card" border="dark" style={{ height: "100%" }}>
             <Card.Header className="card-title">
               4. Inovație și Tehnologie
             </Card.Header>
@@ -80,7 +80,7 @@ function GridCards() {
       </Row>
       <Row className={GridContainer}>
         <Col className="mb-4">
-          <Card className="Card" border="success" style={{ height: "100%" }}>
+          <Card className="Card" border="dark" style={{ height: "100%" }}>
             <Card.Header className="card-title">
               5. Angajamentul față de Calitate și Siguranță
             </Card.Header>
@@ -94,7 +94,7 @@ function GridCards() {
           </Card>
         </Col>
         <Col className="mb-4">
-          <Card className="Card" border="success" style={{ height: "100%" }}>
+          <Card className="Card" border="dark" style={{ height: "100%" }}>
             <Card.Header className="card-title">
               6. Parteneriate și Colaborare
             </Card.Header>

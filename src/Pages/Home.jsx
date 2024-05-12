@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../Layout/Layout";
+import Layout from "../components/Layout";
 import GridCards from "../components/Grid";
 import "./Home.css";
 

@@ -1,6 +1,6 @@
 .portofoliu .container-images {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: auto;
 }
 
 .portofoliu .title {
@@ -24,11 +24,6 @@
   padding: 20px;
   color: var(--color-primary);
   font-weight: bold;
-}
-
-.portofoliu .container-box.container-text p,
-.portofoliu .container-box.container-text h1 {
-  font-family: cursive;
 }
 
 .portofoliu .container-wrapper {

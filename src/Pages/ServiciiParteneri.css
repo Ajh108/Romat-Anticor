@@ -4,13 +4,13 @@
 
 .accordion-button:not(.collapsed) {
     background-color: var(--color-primary);
-    color: var(--color-lime);
+    color: var(--color-secondary);
     font-weight: bolder;
 }
 
 .accordion-button:hover {
     background-color: var(--color-primary);
-    color: var(--color-lime);
+    color: var(--color-secondary);
 }
 
 .accordion-item {

@@ -1,0 +1,18 @@
+/* Styling Footer */
+
+.Footer {
+    background-color: var(--color-primary);
+}
+
+.Footer .info p {
+    color: var(--color-secondary);
+    font-size: small;
+}
+
+.Footer .info {
+    padding-bottom: 0;
+}
+
+.Footer .credits p {
+    font-size: 7px;
+}

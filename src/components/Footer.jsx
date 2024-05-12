@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header&Footer.css"
+import "./Footer.css"
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -10,8 +10,8 @@ export default function Footer() {
                 <Link to="https://www.listafirme.ro/romat-anticor-srl-36757419/" target="_blank" className="info p-4">
                     <p>ROMAT ANTICOR SRL </p>
                 </Link>
-                <Link to="/" className="info p-4">
-                    <p>Built by: @Simionescu Vlad</p>
+                <Link to="/" className="info p-4 credits">
+                    <p>@VS</p>
                 </Link>
             </Container>
         </footer>
