@@ -5,6 +5,7 @@ import { Portofoliu } from './pages/Portofoliu';
 import { ServiciiParteneri } from './pages/ServiciiParteneri';
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
+import ScrollToTop from './utility/scrollToTop';
 
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
   ])
 
   return (
-    <RouterProvider router={router} />
+    <RouterProvider router={router} >
+      <ScrollToTop />
+    </RouterProvider>
   );
 }
 

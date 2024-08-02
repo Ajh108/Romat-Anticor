@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import img from "../logo/Logo.JPG"
+import scrollToTop from "../utility/scrollToTop";
 
 export default function Header() {
   const [isDisplayed, setIsDisplayed] = useState(false);
@@ -19,7 +20,7 @@ export default function Header() {
     <header className="Header">
       <nav className="nav w-100">
         <Container className="d-flex justify-content-between align-items-center">
-          <Link to="/" className="p-4">
+          <Link to="/" className="p-4" onClick={scrollToTop}>
             <img src={img} alt=""/>
           </Link>
           <div className="menu-icon-container">
@@ -32,17 +33,17 @@ export default function Header() {
             </span>
             <ul className={dropdownMenuClasses}>
                 <li className={isDisplayed ? "container" : null}>
-                    <Link to="/portofoliu" className="navbar-text p-4">
+                    <Link to="/portofoliu" className="navbar-text p-4" onClick={scrollToTop}>
                         Portofoliu
                     </Link>
                 </li>
                 <li className={isDisplayed ? "container" : null}>
-                    <Link to="/servicii&parteneri" className="navbar-text p-4">
+                    <Link to="/servicii&parteneri" className="navbar-text p-4" onClick={scrollToTop}>
                         Servicii si Parteneri
                     </Link>
                 </li>
                 <li className={isDisplayed ? "container" : null}>
-                    <Link to="/contact" className="navbar-text p-4">
+                    <Link to="/contact" className="navbar-text p-4" onClick={scrollToTop}>
                         Contact
                     </Link>
                 </li>

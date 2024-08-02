@@ -33,9 +33,9 @@ export function Contact() {
                     <p className="text-logo"><span class="material-symbols-outlined">
                         mail
                         </span>Email:</p>
-                    <p className="text-infos">cristian.simionescu@romatanticor.ro
+                    <p className="text-infos">cristian.simionescu@romatanticor.eu
                       <br />
-                      office@romatanticor.ro
+                      office@romatanticor.eu
                     </p>
                 </div>
                 <div class="contact-wrapper">

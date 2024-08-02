@@ -42,8 +42,11 @@ export function ServiciiParteneri() {
           </div>
           <div className="parteneri">
           <h3>Parteneri</h3>
-          <p>1. Tehnomontaj Consulting SRL - Servicii de Proiectare</p>
-          <p>2. Mecanica Ind 2004 SRL - Montaj echipamente Mecanice</p>
+          <div className="parteneri-wrapper">
+            <p>1. Mecanica Ind 2004 SRL - Montaj echipamente Mecanice</p>
+            <Link to="https://www.mecanicaind.ro/" target="_blank"><Button variant="success"> Afla mai multe</Button></Link>
+          </div>
+          <p>2. Tehnomontaj Consulting SRL - Servicii de Proiectare</p>
           <p>3. Power Desk SRL - Servicii de Proiectare; Servicii de Antreprenoriat</p>
           </div>
         </div>
